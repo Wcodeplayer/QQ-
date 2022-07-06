@@ -1,0 +1,15 @@
+.mainer{
+    width: 1010px;
+    height: 680px;
+    display: flex;
+}
+.left_content{
+    width: 20%;
+    height: 100%;
+    background:rgb(226, 226, 226);
+}
+.right_content{
+    width: 80%;
+    height: 100%;
+    background:rgb(236, 236, 236);
+}

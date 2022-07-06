@@ -1,0 +1,140 @@
+/* header_wapper{
+    btn_nav{
+        back_btn
+        front_btn
+    }
+    search_wapper{
+        search_form{
+            search_text
+            search_btn
+        }
+    }
+    listen_btn
+
+    user_nav{
+        user_img
+        user_message
+    }
+    line
+    obtion_nav{
+        min_btn
+        max_btn
+        close_btn
+    }
+} */
+.header_wapper{
+    display: flex;
+}
+.btn_nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    width: 60px;
+}
+.back_btn , .front_btn{
+    font-size: 24px;
+    font-weight: 0.1;
+    color: #cacbcc;
+    font-family: 'Times New Roman', Times, serif;
+}
+.back_btn:hover , .front_btn:hover{
+    color: rgb(64, 192, 154);
+}
+
+
+.search_wapper{
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 180px;
+    height: 40px;
+    background-image: url("../picture/椭圆边界_center.png");
+    background-size: 180px 40px;
+}
+.search_text{
+    margin-top: 10px;
+    width: 120px;
+    border: none;
+    background: none;
+    outline-style: none;
+    height: 20px;
+    line-height: 20px;
+}
+.search_btn{
+    border: none;
+    background: none;
+}
+
+
+.listen_btn{
+    margin: 24px 14px;
+    
+}
+.listen_btn:hover{
+    color: rgb(64, 192, 154);
+}
+
+.fa-music{
+    font-size: 16px;
+}
+
+
+.user_nav{
+    width: 170px;
+    height: 40px;
+    margin-left: 170px;
+    margin-top: 14px;
+    display: flex;
+}
+.user_img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(../picture/default.png);
+    background-size: 40px 40px;
+}
+.user_message{
+    margin: 10px 5px;
+    width: 110px;
+    text-align: center;
+}
+
+.line{
+    width: 1px;
+    height: 25px;
+    margin-top: 22px;
+    margin-left: 4px;
+    background: #cacbcc;
+}
+
+.obtion_nav{
+    margin: 14px auto;
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.obtion_nav li{
+    font-size: 20px;
+    color: #cacbcc;
+}
+.obtion_nav a{
+    margin-top: 10px;
+    text-align: center;
+}
+.obtion_nav a:last-child{
+    margin-top: 7px;
+    margin-right: 12px;
+}
+.fa-minus:hover{
+    color: rgb(64, 192, 154);
+}
+.fa-expand:hover{
+    color: rgb(64, 192, 154);
+}
+
+.obtion_nav a:last-child li:hover{
+    color: rgb(64, 192, 154);
+}
