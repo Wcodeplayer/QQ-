@@ -1,0 +1,230 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#foot a {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+
+#foot #three td:hover {
+	color: #31C270;
+}
+
+#foot {
+	width: 1300px;
+	height: 580px;
+	margin: auto;
+	background-color: #333333;
+
+}
+
+#foot #footer {
+
+	width: 1040px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+	top: 50px;
+
+}
+
+/* 第一块,下载qq音乐客户端 */
+#foot #one {
+	width: 450px;
+	height: 200px;
+	background-color: #333333;
+	font-size: 16px;
+	color: #7f7f7f;
+
+}
+
+#foot #one dl {
+	height: 30px;
+	margin-top: 15px;
+	width: 360px;
+
+}
+
+#foot #one dl dd {
+	height: 50px;
+	width: 68px;
+	margin-right: 17px;
+	line-height: 120px;
+	float: left;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+#foot #one dl dd:nth-child(1) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -5px 0px;
+	background-size: 750px;
+
+}
+
+#foot #one dl dd:nth-child(1):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -5px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+#foot #one dl dd:nth-child(2) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -87px 0px;
+	background-size: 750px;
+
+}
+
+#foot #one dl dd:nth-child(2):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -87px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+#foot #one dl dd:nth-child(3) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -165px 0px;
+	background-size: 769px;
+
+}
+
+#foot #one dl dd:nth-child(3):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -165px -47px;
+	background-size: 769px;
+	color: #31c270;
+}
+
+#foot #one dl dd:nth-child(4) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -250px 0px;
+	background-size: 750px;
+
+}
+
+#foot #one dl dd:nth-child(4):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -250px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+/* 第二块特色产品 */
+#foot #two {
+	width: 350px;
+	height: 200px;
+	background-color: #333333;
+	font-size: 16px;
+	color: #7f7f7f;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	left: 390px;
+}
+
+#foot #two dl {
+	height: 30px;
+	margin-top: 15px;
+	width: 350px;
+
+}
+
+#foot #two dl dd {
+	height: 50px;
+	width: 81px;
+	margin-right: 5px;
+	line-height: 120px;
+	float: left;
+	font-size: 14px;
+	/* /* margin-left: 10px; */
+	*/ text-align: center;
+}
+
+#foot #two dl dd:nth-child(1) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -345px 0px;
+	background-size: 750px;
+
+}
+
+#foot #two dl dd:nth-child(1):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -345px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+#foot #two dl dd:nth-child(2) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -430px 0px;
+	background-size: 750px;
+
+}
+
+#foot #two dl dd:nth-child(2):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -430px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+#foot #two dl dd:nth-child(3) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -535px 0px;
+	background-size: 769px;
+
+}
+
+#foot #two dl dd:nth-child(3):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -535px -47px;
+	background-size: 769px;
+	color: #31c270;
+}
+
+#foot #two dl dd:nth-child(4) {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -585px 0px;
+	background-size: 750px;
+
+}
+
+#foot #two dl dd:nth-child(4):hover {
+	background: url(../topimg/footer@2x.2f424f62.png) no-repeat -585px -46px;
+	background-size: 750px;
+	color: #31c270;
+}
+
+#foot #three {
+	color: #7f7f7f;
+	font-size: 16px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#foot #three table {
+	font-size: 14px;
+	margin-top: 10px;
+
+}
+
+#foot #three table tr {
+	height: 30px;
+
+}
+
+#foot #three table td {
+	width: 90px;
+}
+
+#foot #foots {
+	position: relative;
+	left: 130px;
+	color: #7f7f7f;
+}
+
+#foot #foots tr {
+	height: 50px;
+}
+
+#foot #foots td {
+	width: 420px;
+}
+
+#foot #f {
+	font-size: 14px;
+	line-height: 30px;
+	color: #7f7f7f;
+	text-align: center;
+	margin-top: 60px;
+}

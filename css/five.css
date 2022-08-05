@@ -1,0 +1,176 @@
+#fivemain {
+	height: 650px;
+	width: 1300px;
+	margin: auto;
+	background: linear-gradient(#f2f2f2, #fafafa);
+	position: relative;
+	overflow: hidden;
+}
+
+#fivemain #title {
+	text-align: center;
+}
+
+#fivemain #title span {
+	position: relative;
+	top: 10px;
+	height: 70px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 70px;
+	color: #333333;
+}
+
+#fivemain #title span {
+	margin-left: 10px;
+}
+
+#fivemain #title a {
+	position: relative;
+	top: 10px;
+	left: 435px;
+	text-decoration: none;
+	color: #03020d;
+}
+
+#fivemain #title a:hover {
+	color: #7dd1a9;
+}
+
+#fivelun {
+	height: 500px;
+	width: 1040px;
+	margin: auto;
+}
+
+#fivelun dl {
+	margin-top: 25px;
+}
+
+#fivelun dd {
+	overflow: hidden;
+	width: 200px;
+	height: 500px;
+	margin-right: 10px;
+	float: left;
+}
+
+#fivelun dd:last-child {
+	margin: 0px;
+}
+
+#fivemain p {
+	width: 100%;
+	height: 100%;
+	transition: all .2s linear;
+}
+
+#fivemain dd:hover p {
+	transform: scale(1.03);
+}
+
+#fivelun dd:nth-child(1) p {
+	background: url(../img5/p1.png) no-repeat;
+
+}
+
+#fivelun dd:nth-child(2) p {
+	background: url(../img5/p2.png) no-repeat;
+}
+
+#fivelun dd:nth-child(3) p {
+	background: url(../img5/p3.png) no-repeat;
+}
+
+#fivelun dd:nth-child(4) p {
+	background: url(../img5/p4.png) no-repeat;
+}
+
+#fivelun dd:nth-child(5) p {
+	background: url(../img5/p5.png) no-repeat;
+}
+
+#fivemain .pic {
+	position: relative;
+	top: 25%;
+	left: 40%;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: all .4s linear;
+}
+
+#fivemain dd:hover #pic1 {
+	opacity: 1;
+	transform: scale(1.35);
+}
+
+#fivemain dd:hover #pic2 {
+	opacity: 1;
+	transform: scale(1.35);
+}
+
+#fivemain dd:hover #pic3 {
+	opacity: 1;
+	transform: scale(1.35);
+}
+
+#fivemain dd:hover #pic4 {
+	opacity: 1;
+	transform: scale(1.35);
+}
+
+#fivemain dd:hover #pic5 {
+	opacity: 1;
+	transform: scale(1.35);
+}
+
+#fivemain dd {
+	overflow: hidden;
+	position: relative;
+}
+
+#fivelun span {
+	position: absolute;
+	width: 35px;
+	height: 2px;
+	background-color: white;
+	top: 29%;
+	left: 40%;
+}
+
+#fivelun ol {
+	position: absolute;
+	top: 0px;
+}
+
+#fivelun h1 {
+	margin-left: 65px;
+	margin-top: 45px;
+	font-size: 23px;
+	color: white;
+	font-weight: 100;
+}
+
+#fivelun h2 {
+	margin-left: 55px;
+	text-align: center;
+	margin-top: -0px;
+	font-size: 23px;
+	color: white;
+	font-weight: 550;
+}
+
+#fivelun li {
+	list-style: none;
+	margin-left: 20px;
+	line-height: 25px;
+	font-size: 15px;
+	color: white;
+	font-weight: 300;
+	margin-top: 15px;
+}
+
+#fivelun dl dd ol li:first-of-type {
+	padding-top: 45px;
+}
